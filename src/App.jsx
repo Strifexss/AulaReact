@@ -5,6 +5,7 @@ import HelloWorld from './components/HelloWorld';
 import Pessoa from './components/Pessoa';
 import Frases from './components/Frases';
 import List from './components/List';
+import Condicional from './components/Condicional';
 function App() {
   const nome = "Maria"
   return (
@@ -21,6 +22,7 @@ function App() {
     <Evento numero = {1}/>
     <Evento numero = {2}/>
     <Form/>
+    <Condicional/>
     </div> 
     
     )
